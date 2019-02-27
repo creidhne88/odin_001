@@ -1,0 +1,22 @@
+.iconset {
+	background-image: url("../img/iconset1.png");
+	-webkit-background-size: 528px 68px;
+	background-size: 528px 68px;
+}
+.dotbox {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+	background-position: -132px -38px;
+	opacity: .55;
+}
+.alerts {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+	background-position: -194px -21px;
+	background-color: rgba(0,0,0,.55);
+	border-radius: 50%;
+	margin: 5px;
+    text-align: center;
+}
