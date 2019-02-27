@@ -1,3 +1,19 @@
+body {
+	font-family: arial,sans-serif;
+	font-size: 10px;
+}
+a.nav {
+	color: #000;
+	opacity: 0.75;
+	text-decoration: none; 
+	font-size: 1.3em;
+}
+a.nav:hover {
+	text-decoration: underline;
+}
+a.nav:visited {
+	color: #609;
+}
 .iconset {
 	background-image: url("../img/iconset1.png");
 	-webkit-background-size: 528px 68px;
