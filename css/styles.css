@@ -41,6 +41,25 @@ a.nav:visited {
 }
 
 /* top bar styles */
+.toppane {
+	right: 0px;
+	position: absolute;
+	padding-top: 15px;
+}
+.toppane a {
+	vertical-align: middle;
+	margin-right: 15px;
+}
+#signin {
+	color: #ffffff; 
+	border: 1px solid #4285f4;
+	padding: 7px 12px 7px 12px;
+	font-weight: bold;
+	font-size: 1.3em;
+	text-decoration: none;
+	background: #4285f4; 
+	border-radius: 3px;
+}
 
 /* middle content styles */
 img.logo {
