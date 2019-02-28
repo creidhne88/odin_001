@@ -2,6 +2,7 @@ body {
 	font-family: arial,sans-serif;
 	font-size: 10px;
 }
+/* links styles */
 a.nav {
 	color: #000;
 	opacity: 0.75;
@@ -14,20 +15,22 @@ a.nav:hover {
 a.nav:visited {
 	color: #609;
 }
+
+/* icons and images */
 .iconset {
 	background-image: url("../img/iconset1.png");
 	-webkit-background-size: 528px 68px;
 	background-size: 528px 68px;
 }
 .dotbox {
-    display: inline-block;
+	display: inline-block;
     height: 30px;
     width: 30px;
 	background-position: -132px -38px;
 	opacity: .55;
 }
 .alerts {
-    display: inline-block;
+	display: inline-block;
     height: 20px;
     width: 20px;
 	background-position: -194px -21px;
@@ -35,4 +38,42 @@ a.nav:visited {
 	border-radius: 50%;
 	margin: 5px;
     text-align: center;
+}
+
+/* top bar styles */
+
+/* middle content styles */
+img.logo {
+	padding-top: 109px;
+	height: 92px;
+	width: 272px;
+}
+
+
+/* footer styles */
+.footer {
+	display: block;
+    font-size: 10pt;
+    position: absolute;
+	width: 100%;
+	bottom: 0;
+    left: 0;
+	right: 0;
+	border-top: 1px solid #e4e4e4;
+	background: #f2f2f2;
+	font-size: 1em;
+}
+.footer section {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.footer section a {
+	padding: 13px;
+	margin: 0px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
 }
