@@ -62,8 +62,11 @@ a.nav:visited {
 }
 
 /* middle content styles */
+.content {
+	text-align: center;
+}
 img.logo {
-	padding-top: 109px;
+	padding-top: 200px;
 	height: 92px;
 	width: 272px;
 }
