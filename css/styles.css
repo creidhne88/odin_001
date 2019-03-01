@@ -105,6 +105,26 @@ img.logo {
 	margin: auto 20px auto 10px;
 	flex-grow: 0;
 }
+input[type="submit"] {
+	margin: 25px 5px 0px 4px;
+	min-width: 54px;
+	height: 36px;
+	padding: 0 16px;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+    border-radius: 2px;
+	color: #757575;
+	font-size: 1.3em;
+	box-shadow: 0px 0px 0px 1px rgba(0,0,0,0);
+	font-weight: bold;
+}
+input[type="submit"]:hover {
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));
+	background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+	/*border: 1px solid rgba(34, 34, 34, 0.2);*/
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+	color: #222;
+}
 /* footer styles */
 .footer {
 	display: block;
